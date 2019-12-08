@@ -1,0 +1,66 @@
+{
+    "runtime": {
+      "arguments": "--v=1 --inspect",
+      "version": "14.78.47.15"
+    },
+    "shortcut": {
+      "company": "OpenFin",
+      "description": "Layouts Example",
+      "icon": "https://openfin.github.io/golden-prototype/favicon.ico",
+      "name": "Layouts Example"
+    },
+    "startup_app": {
+      "name": "Layouts_Example",
+      "uuid": "Layouts_Example",
+      "applicationIcon": "https://openfin.github.io/golden-prototype/favicon.ico",
+      "autoShow": false,
+      "standardFrame": true,
+      "layout": {
+        "windows": [
+          {
+            "name": "window_0.9040191218878744",
+            "defaultWidth": 800,
+            "defaultHeight": 600,
+            "defaultLeft": 0,
+            "defaultTop": 0,
+            "saveWindowState": false,
+            "backgroundThrottling": true,
+            "layoutConfig": {
+              "content": [
+                {
+                  "type": "row",
+                  "id": "mainRow",
+                  "isClosable": true,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "content": [
+                    {
+                      "type": "stack",
+                      "width": 50,
+                      "isClosable": true,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "activeItemIndex": 0,
+                      "content": [
+                        {
+                          "type": "component",
+                          "componentName": "view",
+                          "componentState": {
+                            "url": "about:blank",
+                            "name": "component_1575636575636"
+                          },
+                          "isClosable": true,
+                          "reorderEnabled": true,
+                          "title": "view"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
